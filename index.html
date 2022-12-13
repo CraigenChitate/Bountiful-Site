@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final Project WDD230 Web Fronted Development - BYUI">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Document</title>
+    <script defer src="scripts/lastupdate.js"></script>
+    <script defer src="scripts/windchill.js"></script>
+    <script defer src="scripts/forecast.js"></script>
+
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-picture"> 
+            <a href="index.html"><img src="images/picture3.jpg"  alt="my-logo" width="100"></a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="images/facebook.logo.png" alt="facebook.logo" width="50"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedln.logo.png"  alt="linkedin.logo" width="50"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.logo.png"  alt="linkedin.logo" width="50"></a>
+        </div>
+        <div class="name">
+            <h1>Bountiful Foods</h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Details.html">Details</a></li>
+                <li><a href="resource.html">Resource Page</a></li>
+                <li><a href="about us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="layout">
+            <nav class="principal">
+                <picture>
+                    <source media="(max-width: 559px)" srcset="images/picture4.jpg">
+                    <source media="(max-width: 1027px)" srcset="images/picture6.jpg">
+                    <img class="hero-img" src="images/picture1.jpg" alt="principal-image">
+                </picture>
+                <div class="principal-text">
+                    <h2>Welcome to Bountifull Foods</h2>
+                </div>
+                <div class="principal-link">
+                    <a href="Details.html">Fresh</a>
+                </div>
+            </nav>
+            <nav class="coastal">
+
+                <h1>South Africa</h1>
+
+                <h1>Benoni is in Johannesburg</h1>
+            <p>Benoni is a landlocked  city in the Northen part of Johannesburg . The city is  40 km North  of Johannesburg.</p>
+                <img class="carlsbad-img" src="images/Joburg.jpg" width="150" height="150" alt="joburg-image">
+
+            </nav>
+            <nav class="weather">
+                <h2>Johannesburg</h2>
+                <h1><span id="current-temp"></span> &deg;C</h1>
+                <figure>
+                    <img src="" alt="" id="weather-icon"/>
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="wind"></span> Km/h</p>
+                <p>humidity: <span id="humidity"></span>%</p>
+                <h3>Forecast 3 days</h3>
+                <nav class="forecast">
+                        <nav class="one">
+                            <p>Wind Speed: <span id="forecasTemperature"></span> Km/h</p>
+                            <p>humidity: <span id="humidity"></span>%</p>
+                        </nav>
+                        <nav class="two">
+                            <p>Wind Speed: <span id="wind"></span> Km/h</p>
+                            <p>humidity: <span id="humidity"></span>%</p>
+                        </nav>
+                        <nav class="tree">
+                            <p>Wind Speed: <span id="wind"></span> Km/h</p>
+                            <p>humidity: <span id="humidity"></span>%</p>
+                        </nav>
+                </nav>
+            </nav>
+        </div>
+    </main>
+    <footer>
+        <div Class="projectname">
+            <img src="images/picture3.jpg" alt="my-logo" width="80">
+            <div>
+                <p>Beautiful Foods</p>
+                <p>Benoni Johannesburg</p>
+                <p>Princess Avenue, Benoni</p>
+            </div>
+        </div>
+        <div class="contact-inf">
+            <p>sales@bountifulfoods.com</p>
+            <p>+(27) 0626942455</p>
+            <p><a href="https://www.google.com.ar/maps/place/Church+of+Jesus+Christ+of+Latter-day+Saints/@-26.1737688,28.2398105,13z/data=!4m9!1m2!2m1!1sBenoni+Church+of+Christ+of+latter+day+saints!3m5!1s0x1e953d70840fa485:0x13f89326cacdf5e1!8m2!3d-26.1927359!4d28.3114449!15sCixCZW5vbmkgQ2h1cmNoIG9mIENocmlzdCBvZiBsYXR0ZXIgZGF5IHNhaW50cyIDiAEBkgEQY2h1cmNoX29mX2NocmlzdOABAA">Location Map</a></p>
+        </div>
+        <div class="autor">
+            <p> &copy; <span id="currentYear"></span> Bountiful Foods</p>
+            <p>Craigen Chitate</p>
+            <p>WDD 230 Final Project</p>
+            <p>Last Update: <span id="lstmoddate"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

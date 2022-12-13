@@ -1,0 +1,27 @@
+@media only screen and (min-width: 37.5em) {
+    
+    header{
+        grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+        grid-template-rows: auto;
+    }
+    .logo-picture{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }    
+    .name{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }   
+    .social{
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    nav{
+        list-style:none;
+        padding: 0;
+    }
+
+    
+
+
+}

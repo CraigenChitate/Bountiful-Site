@@ -1,0 +1,131 @@
+@media only screen and (min-width: 60em) {
+    
+    .social img{
+        max-width: 30px;
+    }   
+    header{
+        grid-template-columns: 0.5fr 1fr 2fr 0.5fr;
+        grid-template-rows: auto;
+    }
+
+
+    .navigation li{
+        display: inline;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    nav ul a{
+        color: rgb(249, 249, 250);
+        margin: 12px;
+    }
+    .navigation a{
+        display: inline;
+    }
+    .logo-picture{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .name{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    nav{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        justify-self: center;
+        align-self: center;
+    }        
+    .social{
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+   
+
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
+    .principal{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        border: 1px #a2a1b0 solid;
+    }
+    .coastal{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border: 1px #a1a2b0 solid;
+    }
+    .weather{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: 1px #a5a1b082 solid;
+    }
+   
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        background-color: rgba(33, 32, 106, 0.938);
+    }
+    footer p, h1, h2{
+        color:rgb(255, 251, 251);
+    }
+    footer img{
+        margin: 10px;
+    }
+    .projectname{
+        grid-column: 1/2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .contact-inf{
+        grid-column: 2/3;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+    .autor{
+        grid-column: 3/4;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+    }
+
+   
+    main.contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem
+    }
+    main.contact form, main.contact div.us{
+        width: 100%;
+    }
+    .contact-form{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .about-us{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .information{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }   
+    main.contact div.information{
+        margin-top: 1.2rem;
+        width: 100%;
+    }
+    footer .title {
+        margin-left: 35px;
+    }
+    footer .end p{
+        font-size: 1rem;
+        display: inline;
+        margin: 0.2rem;
+    }
+
+}

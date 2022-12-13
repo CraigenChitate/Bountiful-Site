@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final Project WDD230 Web Fronted Development - BYUI">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Document</title>
+    <script defer src="scripts/lastupdate.js"></script>
+    <script defer src="scripts/windchill.js"></script>
+
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-picture"> 
+            <a href="index.html"><img src="images/picture3.jpg"  alt="my-logo" width="100"></a>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="images/facebook.logo.png" alt="facebook.logo" width="50"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedln.logo.png"  alt="linkedin.logo" width="50"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.logo.png"  alt="linkedin.logo" width="50"></a>
+        </div>
+        <div class="name">
+            <h1>Bountiful Foods</h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham" href="#"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Details.html">Details</a></li>
+                <li><a href="resource.html">Resource Page</a></li>
+                <li><a href="about us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <div class="about-us">
+            <h2>Who we are?</h2>
+            <p>
+                We are a small business specializing in, locally grown foods. We are  located in Benoni, Johannesburg, however, we have  trucks that cover most  areas in South Africa. We sell fruits and produce directly from the farmers in the area, we deliver and manage  orders on the phone and via the website. 
+            </p>
+            <p>
+                Our mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks and fruit bags, to the people of South Africa.
+            </p>
+            <img class="equipo-img" src="images/picture7.jpg" alt="people-image">
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact form</h2>
+            <h3>Field with '#' are required</h3>
+            <form method="get" action="submited-form.html">
+                <fieldset>
+                <label class="top"> Name* <input type="text" name="name" required> </label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="example@gmail.com" required> </label>
+                <label class="top"> Question* <textarea name="description" required></textarea> </label>
+                </fieldset>
+                <input type="submit" value="Send us a Message" class="submitBtn">
+            </form>
+        </div>
+        
+        <div class="information">
+                <h2>Contact Us</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.079356720716!2d28.31033041486711!3d-26.194096683442375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e953d706a14d1bf%3A0x47a7ae0151b7ac0c!2s115%20Princes%20Ave%2C%20Benoni%2C%201500!5e0!3m2!1sen!2sza!4v1669173541201!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h3>Address</h3>
+                <p>Princess Avenue<br>Johannesburg Benoni</p>
+                <h3>Phone</h3>
+                <p>+(27) 0626942455</p>
+                <h3>Email</h3>
+                <p>sales@bountifulfoods.com</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="images/facebook.logo.png" alt="facebook logo" width="50"></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedln.logo.png" alt="linkedln logo" width="50"></a>
+                    <a href="https://www.youtube.com/"><img src="images/youtube.logo.png"  alt="linkedin.logo" width="50"></a>
+                </div>
+        </div>
+    </main>
+    <footer>
+        <div Class="projectname">
+            <img src="images/picture3.jpg" alt="my-logo" width="80">
+            <div>
+                <p>Bountiful Foods</p>
+                <p>Benoni Johannesburg</p>
+                <p>Benoni, Johannesburg</p>
+            </div>
+        </div>
+        <div class="contact-inf">
+            <p>sales@bountifulfoods.com</p>
+            <p>+(27) 0626942455</p>
+            <p><a href="https://www.google.com.ar/maps/place/Church+of+Jesus+Christ+of+Latter-day+Saints/@-26.1737688,28.2398105,13z/data=!4m9!1m2!2m1!1sBenoni+Church+of+Christ+of+latter+day+saints!3m5!1s0x1e953d70840fa485:0x13f89326cacdf5e1!8m2!3d-26.1927359!4d28.3114449!15sCixCZW5vbmkgQ2h1cmNoIG9mIENocmlzdCBvZiBsYXR0ZXIgZGF5IHNhaW50cyIDiAEBkgEQY2h1cmNoX29mX2NocmlzdOABAA">Location Map</a></p>
+        </div>
+        <div class="autor">
+            <p> &copy; <span id="currentYear"></span> Beautiful Foods</p>
+            <p>Craigen Chitate</p>
+            <p>WDD 230 Final Project</p>
+            <p>Last Update: <span id="lstmoddate"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

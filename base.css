@@ -1,0 +1,202 @@
+
+header{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto;
+    background-color: rgba(32, 47, 106, 0.842);
+}
+
+.name h1, p{
+    color:rgb(255, 255, 255);
+    align-self: center;
+    justify-self: center;
+}
+
+nav{
+    display: block;
+    justify-self: center;
+    align-self: center;
+    justify-items: stretch;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation a.ham::before {
+    content: "🍔";
+}
+.navigation a{
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+.responsive a.ham::before {
+    content: "❌ ";
+}
+
+.logo-picture{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+}
+.name{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.social{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+/*--------main home p--------*/
+main h1{
+    color:black;
+}
+.principal h2{
+    color: black;
+}
+.weather h2, p{
+    color: black;
+}
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.one {
+    grid-column: 1/2;
+}
+.two {
+    grid-column: 2/3;
+}
+.tree {
+    grid-column: 3/4;
+}
+
+/*------footer home p--------*/
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgba(35, 32, 106, 0.311);
+}
+footer p, h1, h2{
+    color:rgb(255, 255, 255);
+}
+footer img{
+    margin: 10px;
+}
+.projectname{
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.contact-inf{
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+.autor{
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+
+.contact h2, p{
+    margin: 40px;
+    margin-top: 1.5rem;
+    color: black;
+    text-align: center;
+}
+.contact-form{
+    background-color: rgb(255, 255, 255);
+}
+form label.top textarea:required{
+    background-color: rgba(218, 75, 75, 0.1);
+}
+form label.top textarea:required:valid{
+    background-color: rgba(110, 98, 167, 0.501);
+}
+
+div.information{
+    margin: 0 auto;
+    max-width: 500px;
+    border: 1px solid #1C211D;
+    border-radius: 8px;
+    padding: .5rem 2%;
+    background-color: rgb(236, 242, 243);
+    text-align: center;
+}
+div.contact-form{
+    margin-left: 40px;
+    text-align: center;
+}
+div.about-us{
+    margin-left: 40px;
+    text-align: center;
+}
+form fieldset {
+    margin: 1.2rem 0.2rem;
+    border: 1px solid #1C211D;
+    border-radius: 8px;
+    padding: .5rem 2%;
+    background-color: rgb(236, 242, 243);
+    text-align: center;
+    
+}
+form label.top{
+    display:block;
+    padding-bottom: 1rem;
+    color: #1C211D;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+iframe{
+    width:100%;
+    border-radius: 8px;
+    margin-top: 1rem;    
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+.title img{
+    width: 150px;
+}
+.contact, .contact p{
+    margin-bottom: 1rem;
+}
+.contact a{
+    color: #D5ECD4;
+}
+.end{
+    border-top: 0.1rem rgba(255, 255, 255, 0.336) solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+.end a {
+    color:white;
+}
+.line {
+    display: none;
+}
